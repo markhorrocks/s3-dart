@@ -101,6 +101,7 @@ final minio = Minio(
   endPoint: 's3.amazonaws.com',
   accessKey: 'YOUR-ACCESSKEYID',
   secretKey: 'YOUR-SECRETACCESSKEY',
+  region: 'us-east-1',
 );
 ```
 
@@ -111,6 +112,7 @@ final minio = Minio(
   endPoint: 'play.min.io',
   accessKey: 'Q3AM3UQ867SPQQA43P2F',
   secretKey: 'zuf+tfteSlswRu7BJ86wekitnifILbZam1KYY3TG',
+  region: 'us-east-1',
 );
 ```
 
@@ -122,6 +124,7 @@ final minio = Minio(
   accessKey: 'YOUR-ACCESSKEYID',
   secretKey: 'YOUR-SECRETACCESSKEY',
   useSSL: true,
+  region: 'us-east-1',
 );
 ```
 
@@ -138,6 +141,7 @@ void main() async {
     endPoint: 's3.wasabisys.com',
     accessKey: 'YOUR-ACCESSKEYID',
     secretKey: 'YOUR-SECRETACCESSKEY',
+    region: 'us-east-1',
   );
 
   await minio.fPutObject('mybucket', 'myobject', 'path/to/file');
@@ -158,6 +162,7 @@ void main() async {
     endPoint: 's3.wasabisys.com',
     accessKey: 'YOUR-ACCESSKEYID',
     secretKey: 'YOUR-SECRETACCESSKEY',
+    region: 'us-east-1',
   );
 
   await minio.putObject(
@@ -180,6 +185,7 @@ void main() async {
     endPoint: 's3.wasabisys.com',
     accessKey: 'YOUR-ACCESSKEYID',
     secretKey: 'YOUR-SECRETACCESSKEY',
+    region: 'us-east-1',
   );
 
   final stream = await minio.getObject('mybucket', 'myobject');
