@@ -1,3 +1,7 @@
+# 1.0.1 
+
+- Add platform support info to pub.dev
+
 # 1.0.0
 
 - Initial release as s3_dart, created by Mark Horrocks
