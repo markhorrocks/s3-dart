@@ -1,8 +1,9 @@
 name: s3_dart
 description: S3 Dart Client SDK optimized for Wasabi S3, with full support for AWS S3, MinIO, and all S3-compatible providers.
 version: 1.0.0
-homepage: https://github.com/markhorrocks/minio-dart
-issue_tracker: https://github.com/markhorrocks/minio-dart/issues
+homepage: https://github.com/markhorrocks/s3-dart
+repository: https://github.com/markhorrocks/s3-dart
+issue_tracker: https://github.com/markhorrocks/s3-dart/issues
 
 environment:
   sdk: '>=3.2.6 <5.0.0'

@@ -146,7 +146,7 @@ void main() async {
 
 > To use `fPutObject()` and `fGetObject()`, you must `import 'package:s3_dart/io.dart';`
 
-For a complete example, see: [example]
+For a complete example, see the `example/` directory.
 
 ### Upload with progress
 
@@ -269,41 +269,4 @@ Contributions are welcome.
 
 MIT
 
-[tracker]: https://github.com/markhorrocks/minio-dart/issues
-[example]: https://pub.dev/packages/minio#-example-tab-
-
-[makeBucket]: https://pub.dev/documentation/minio/latest/minio/Minio/makeBucket.html
-[listBuckets]: https://pub.dev/documentation/minio/latest/minio/Minio/listBuckets.html
-[bucketExists]: https://pub.dev/documentation/minio/latest/minio/Minio/bucketExists.html
-[removeBucket]: https://pub.dev/documentation/minio/latest/minio/Minio/removeBucket.html
-[listObjects]: https://pub.dev/documentation/minio/latest/minio/Minio/listObjects.html
-[listObjectsV2]: https://pub.dev/documentation/minio/latest/minio/Minio/listObjectsV2.html
-[listIncompleteUploads]: https://pub.dev/documentation/minio/latest/minio/Minio/listIncompleteUploads.html
-[listAllObjects]: https://pub.dev/documentation/minio/latest/minio/Minio/listAllObjects.html
-[listAllObjectsV2]: https://pub.dev/documentation/minio/latest/minio/Minio/listAllObjectsV2.html
-
-[getObject]: https://pub.dev/documentation/minio/latest/minio/Minio/getObject.html
-[getPartialObject]: https://pub.dev/documentation/minio/latest/minio/Minio/getPartialObject.html
-[putObject]: https://pub.dev/documentation/minio/latest/minio/Minio/putObject.html
-[copyObject]: https://pub.dev/documentation/minio/latest/minio/Minio/copyObject.html
-[statObject]: https://pub.dev/documentation/minio/latest/minio/Minio/statObject.html
-[removeObject]: https://pub.dev/documentation/minio/latest/minio/Minio/removeObject.html
-[removeObjects]: https://pub.dev/documentation/minio/latest/minio/Minio/removeObjects.html
-[removeIncompleteUpload]: https://pub.dev/documentation/minio/latest/minio/Minio/removeIncompleteUpload.html
-
-[fGetObject]: https://pub.dev/documentation/minio/latest/io/MinioX/fGetObject.html
-[fPutObject]: https://pub.dev/documentation/minio/latest/io/MinioX/fPutObject.html
-
-[presignedUrl]: https://pub.dev/documentation/minio/latest/minio/Minio/presignedUrl.html
-[presignedGetObject]: https://pub.dev/documentation/minio/latest/minio/Minio/presignedGetObject.html
-[presignedPutObject]: https://pub.dev/documentation/minio/latest/minio/Minio/presignedPutObject.html
-[presignedDeleteObject]: https://pub.dev/documentation/minio/latest/minio/Minio/presignedDeleteObject.html
-[presignedPostPolicy]: https://pub.dev/documentation/minio/latest/minio/Minio/presignedPostPolicy.html
-
-[getBucketNotification]: https://pub.dev/documentation/minio/latest/minio/Minio/getBucketNotification.html
-[setBucketNotification]: https://pub.dev/documentation/minio/latest/minio/Minio/setBucketNotification.html
-[removeAllBucketNotification]: https://pub.dev/documentation/minio/latest/minio/Minio/removeAllBucketNotification.html
-[listenBucketNotification]: https://pub.dev/documentation/minio/latest/minio/Minio/listenBucketNotification.html
-
-[getBucketPolicy]: https://pub.dev/documentation/minio/latest/minio/Minio/getBucketPolicy.html
-[setBucketPolicy]: https://pub.dev/documentation/minio/latest/minio/Minio/setBucketPolicy.html
+[tracker]: https://github.com/markhorrocks/s3-dart/issues
